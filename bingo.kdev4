@@ -1,0 +1,4 @@
+[Project]
+Name=bingo
+Manager=KDevCMakeManager
+VersionControl=kdevgit
