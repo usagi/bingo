@@ -1,4 +1,12 @@
 project(bingo)
-
-add_executable(bingo main.cpp)
+set(CMAKE_CXX_FLAGS " -std=c++11 ${CMAKE_CXX_FLAGS}")
+set(Boost_USE_STATIC_LIBS OFF)
+set(Boost_USE_MULTITHREADED ON)
+set(Boost_USE_STATIC_RUNTIME OFF)
+find_package(Boost 1.49)
+if(Boost_FOUND)
+  include_directories(${Boost_INCLUDE_DIRS})
+  add_executable(bingo main.cpp)
+  target_link_libraries(bingo ${Boost_LIBRARIES})
+endif()
 
