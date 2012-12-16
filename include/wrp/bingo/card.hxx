@@ -39,7 +39,7 @@ namespace WonderRabbitProject {
           if ( maximum_index == value_max )
             throw std::invalid_argument ( "maximum_index must be less than {numeric_limits<indeces_type>::max()}" );
 
-          std::vector<index_type> buffer ( maximum_index );
+          std::vector<index_type> buffer ( maximum_index + 1 );
           boost::iota ( buffer, 0 );
 
           std::random_device rd;
