@@ -1,0 +1,177 @@
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card}{\section{Wonder\-Rabbit\-Project\-:\-:bingo\-:\-:card$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$ Struct Template Reference}
+\label{structWonderRabbitProject_1_1bingo_1_1card}\index{Wonder\-Rabbit\-Project\-::bingo\-::card$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$@{Wonder\-Rabbit\-Project\-::bingo\-::card$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$}}
+}
+
+
+{\ttfamily \#include $<$card.\-hxx$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structWonderRabbitProject_1_1bingo_1_1card_afc196ced3e34ff408eb6b04c1107d73e}{card} ()
+\item 
+\hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a5698a803396378eafde84491d4650645}{card} (size\-\_\-t scaling=3, index\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a06c4ff791538bbf4f27f73a3bb2a1571}{maximum\-\_\-index}=\hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a5409fd54b41693dd89b811ffaef710b2}{value\-\_\-max}-\/1)
+\item 
+bool \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a8039e8b858bbcc206b1decd781e68798}{is\-\_\-bingo} () const 
+\item 
+const indeces\-\_\-type \& \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a2fb50514cdbca6d8868830ebda380d5b}{cr\-\_\-indeces} ()
+\item 
+const status\-\_\-type \& \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a9ef3180a051e0623fcd3fabcf0d9a5b1}{cr\-\_\-status} ()
+\item 
+bool \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_abc7f46f16bf63ac7066807e9cc0725b6}{push} (const index\-\_\-type v)
+\item 
+size\-\_\-t \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a371a1176a06fab884c5fa2c72829edba}{size} () const 
+\item 
+index\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a06c4ff791538bbf4f27f73a3bb2a1571}{maximum\-\_\-index} () const 
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static constexpr size\-\_\-t \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a7be3063bac0a8fc2df63acbb2fa2439f}{dimension} = D\-I\-M\-E\-N\-S\-I\-O\-N
+\item 
+static constexpr index\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a5409fd54b41693dd89b811ffaef710b2}{value\-\_\-max} = std\-::numeric\-\_\-limits$<$index\-\_\-type$>$\-::max()
+\item 
+static constexpr index\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_aea4ef488a201046ec273ef9673d8ff7f}{value\-\_\-bingo\-\_\-free} = \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a5409fd54b41693dd89b811ffaef710b2}{value\-\_\-max}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+indeces\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a9f084cb6bb4bb022bc79f9b95050c9e8}{indeces}
+\item 
+status\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a27c1c5693dfef24d350bc530e61422ae}{status}
+\item 
+const index\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1card_a495660e4f6214f2cc4a426ec6fe140e2}{maximum\-\_\-index\-\_\-}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_afc196ced3e34ff408eb6b04c1107d73e}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!card@{card}}
+\index{card@{card}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{card}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::{\bf card} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{structWonderRabbitProject_1_1bingo_1_1card_afc196ced3e34ff408eb6b04c1107d73e}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a5698a803396378eafde84491d4650645}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!card@{card}}
+\index{card@{card}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{card}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::{\bf card} (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{scaling = {\ttfamily 3}, }
+\item[{index\-\_\-type}]{maximum\-\_\-index = {\ttfamily {\bf value\-\_\-max}~-\/~1}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a5698a803396378eafde84491d4650645}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structWonderRabbitProject_1_1bingo_1_1card_a5698a803396378eafde84491d4650645_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a2fb50514cdbca6d8868830ebda380d5b}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!cr\-\_\-indeces@{cr\-\_\-indeces}}
+\index{cr\-\_\-indeces@{cr\-\_\-indeces}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{cr\-\_\-indeces}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ const indeces\-\_\-type\& {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::cr\-\_\-indeces (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a2fb50514cdbca6d8868830ebda380d5b}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a9ef3180a051e0623fcd3fabcf0d9a5b1}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!cr\-\_\-status@{cr\-\_\-status}}
+\index{cr\-\_\-status@{cr\-\_\-status}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{cr\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ const status\-\_\-type\& {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::cr\-\_\-status (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a9ef3180a051e0623fcd3fabcf0d9a5b1}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a8039e8b858bbcc206b1decd781e68798}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!is\-\_\-bingo@{is\-\_\-bingo}}
+\index{is\-\_\-bingo@{is\-\_\-bingo}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{is\-\_\-bingo}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ bool {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::is\-\_\-bingo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a8039e8b858bbcc206b1decd781e68798}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structWonderRabbitProject_1_1bingo_1_1card_a8039e8b858bbcc206b1decd781e68798_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a06c4ff791538bbf4f27f73a3bb2a1571}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!maximum\-\_\-index@{maximum\-\_\-index}}
+\index{maximum\-\_\-index@{maximum\-\_\-index}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{maximum\-\_\-index}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ index\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::maximum\-\_\-index (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a06c4ff791538bbf4f27f73a3bb2a1571}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structWonderRabbitProject_1_1bingo_1_1card_a06c4ff791538bbf4f27f73a3bb2a1571_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_abc7f46f16bf63ac7066807e9cc0725b6}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!push@{push}}
+\index{push@{push}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ bool {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::push (
+\begin{DoxyParamCaption}
+\item[{const index\-\_\-type}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_abc7f46f16bf63ac7066807e9cc0725b6}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structWonderRabbitProject_1_1bingo_1_1card_abc7f46f16bf63ac7066807e9cc0725b6_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a371a1176a06fab884c5fa2c72829edba}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!size@{size}}
+\index{size@{size}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ size\-\_\-t {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a371a1176a06fab884c5fa2c72829edba}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a7be3063bac0a8fc2df63acbb2fa2439f}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!dimension@{dimension}}
+\index{dimension@{dimension}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{dimension}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ constexpr size\-\_\-t {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::dimension = D\-I\-M\-E\-N\-S\-I\-O\-N\hspace{0.3cm}{\ttfamily [static]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a7be3063bac0a8fc2df63acbb2fa2439f}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a9f084cb6bb4bb022bc79f9b95050c9e8}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!indeces@{indeces}}
+\index{indeces@{indeces}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{indeces}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ indeces\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::indeces\hspace{0.3cm}{\ttfamily [private]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a9f084cb6bb4bb022bc79f9b95050c9e8}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a495660e4f6214f2cc4a426ec6fe140e2}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!maximum\-\_\-index\-\_\-@{maximum\-\_\-index\-\_\-}}
+\index{maximum\-\_\-index\-\_\-@{maximum\-\_\-index\-\_\-}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{maximum\-\_\-index\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ const index\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::maximum\-\_\-index\-\_\-\hspace{0.3cm}{\ttfamily [private]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a495660e4f6214f2cc4a426ec6fe140e2}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a27c1c5693dfef24d350bc530e61422ae}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!status@{status}}
+\index{status@{status}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{status}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ status\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::status\hspace{0.3cm}{\ttfamily [private]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a27c1c5693dfef24d350bc530e61422ae}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_aea4ef488a201046ec273ef9673d8ff7f}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!value\-\_\-bingo\-\_\-free@{value\-\_\-bingo\-\_\-free}}
+\index{value\-\_\-bingo\-\_\-free@{value\-\_\-bingo\-\_\-free}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{value\-\_\-bingo\-\_\-free}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ constexpr index\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::value\-\_\-bingo\-\_\-free = {\bf value\-\_\-max}\hspace{0.3cm}{\ttfamily [static]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_aea4ef488a201046ec273ef9673d8ff7f}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1card_a5409fd54b41693dd89b811ffaef710b2}{\index{Wonder\-Rabbit\-Project\-::bingo\-::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}!value\-\_\-max@{value\-\_\-max}}
+\index{value\-\_\-max@{value\-\_\-max}!WonderRabbitProject::bingo::card@{Wonder\-Rabbit\-Project\-::bingo\-::card}}
+\subsubsection[{value\-\_\-max}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type, size\-\_\-t D\-I\-M\-E\-N\-S\-I\-O\-N = 2$>$ constexpr index\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::card}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E, D\-I\-M\-E\-N\-S\-I\-O\-N $>$\-::value\-\_\-max = std\-::numeric\-\_\-limits$<$index\-\_\-type$>$\-::max()\hspace{0.3cm}{\ttfamily [static]}}}\label{structWonderRabbitProject_1_1bingo_1_1card_a5409fd54b41693dd89b811ffaef710b2}
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{card_8hxx}{card.\-hxx}\end{DoxyCompactItemize}

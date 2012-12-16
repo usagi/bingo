@@ -1,0 +1,185 @@
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine}{\section{Wonder\-Rabbit\-Project\-:\-:bingo\-:\-:lottery\-\_\-machine$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$ Struct Template Reference}
+\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine}\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$}}
+}
+
+
+{\ttfamily \#include $<$lottery\-\_\-machine.\-hxx$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a9af0ae866e9c2832e26384de6969d895}{lottery\-\_\-machine} ()
+\item 
+\hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a0bc5bef50b36ead2ac5e1527558151a9}{lottery\-\_\-machine} (const index\-\_\-type maximum\-\_\-index)
+\item 
+void \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_adfdd8674398c8352a1d1542898befbce}{reset} ()
+\item 
+void \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_aa091af0e43ae1195968cec3d029dd6ae}{shuffle} ()
+\item 
+index\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_afdabe377ba29064d346671ece2d2e57a}{next} ()
+\item 
+index\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_ade94ee7680683f040670cb1abf25d1f6}{operator()} ()
+\item 
+bool \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a15216377b16fbfc92d2be4972e568767}{is\-\_\-playable} ()
+\item 
+indeces\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a9af75b44815a75013fb5011862f1cde3}{indeces\-\_\-called} () const 
+\item 
+indeces\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a46bbbf2b96062774a9682a404262c2c2}{indeces\-\_\-uncalled} () const 
+\item 
+size\-\_\-t \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_acab6c57e2cf98c41b06cb1b4138dd09b}{last\-\_\-n} () const 
+\item 
+size\-\_\-t \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_ab80a574363fd96eb0f84022cfa5db59f}{elapsed\-\_\-n} () const 
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+indeces\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a20060cafdcdd3bc7685d78258a12f2a7}{indeces\-\_\-uncalled\-\_\-}
+\item 
+indeces\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a9614d7348f9dfd37777d860e577f20c1}{indeces\-\_\-called\-\_\-}
+\item 
+const index\-\_\-type \hyperlink{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a44860cbc8b1fe744522ffdfb9aa8c557}{maximum\-\_\-index\-\_\-}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a9af0ae866e9c2832e26384de6969d895}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!lottery\-\_\-machine@{lottery\-\_\-machine}}
+\index{lottery\-\_\-machine@{lottery\-\_\-machine}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{lottery\-\_\-machine}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::{\bf lottery\-\_\-machine} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a9af0ae866e9c2832e26384de6969d895}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a0bc5bef50b36ead2ac5e1527558151a9}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!lottery\-\_\-machine@{lottery\-\_\-machine}}
+\index{lottery\-\_\-machine@{lottery\-\_\-machine}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{lottery\-\_\-machine}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::{\bf lottery\-\_\-machine} (
+\begin{DoxyParamCaption}
+\item[{const index\-\_\-type}]{maximum\-\_\-index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a0bc5bef50b36ead2ac5e1527558151a9}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_ab80a574363fd96eb0f84022cfa5db59f}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!elapsed\-\_\-n@{elapsed\-\_\-n}}
+\index{elapsed\-\_\-n@{elapsed\-\_\-n}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{elapsed\-\_\-n}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ size\-\_\-t {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::elapsed\-\_\-n (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_ab80a574363fd96eb0f84022cfa5db59f}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a9af75b44815a75013fb5011862f1cde3}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!indeces\-\_\-called@{indeces\-\_\-called}}
+\index{indeces\-\_\-called@{indeces\-\_\-called}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{indeces\-\_\-called}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ indeces\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::indeces\-\_\-called (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a9af75b44815a75013fb5011862f1cde3}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a46bbbf2b96062774a9682a404262c2c2}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!indeces\-\_\-uncalled@{indeces\-\_\-uncalled}}
+\index{indeces\-\_\-uncalled@{indeces\-\_\-uncalled}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{indeces\-\_\-uncalled}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ indeces\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::indeces\-\_\-uncalled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a46bbbf2b96062774a9682a404262c2c2}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a15216377b16fbfc92d2be4972e568767}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!is\-\_\-playable@{is\-\_\-playable}}
+\index{is\-\_\-playable@{is\-\_\-playable}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{is\-\_\-playable}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ bool {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::is\-\_\-playable (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a15216377b16fbfc92d2be4972e568767}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_acab6c57e2cf98c41b06cb1b4138dd09b}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!last\-\_\-n@{last\-\_\-n}}
+\index{last\-\_\-n@{last\-\_\-n}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{last\-\_\-n}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ size\-\_\-t {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::last\-\_\-n (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_acab6c57e2cf98c41b06cb1b4138dd09b}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_afdabe377ba29064d346671ece2d2e57a}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!next@{next}}
+\index{next@{next}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{next}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ index\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::next (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_afdabe377ba29064d346671ece2d2e57a}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structWonderRabbitProject_1_1bingo_1_1lottery__machine_afdabe377ba29064d346671ece2d2e57a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structWonderRabbitProject_1_1bingo_1_1lottery__machine_afdabe377ba29064d346671ece2d2e57a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_ade94ee7680683f040670cb1abf25d1f6}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!operator()@{operator()}}
+\index{operator()@{operator()}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{operator()}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ index\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::operator() (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_ade94ee7680683f040670cb1abf25d1f6}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structWonderRabbitProject_1_1bingo_1_1lottery__machine_ade94ee7680683f040670cb1abf25d1f6_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_adfdd8674398c8352a1d1542898befbce}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!reset@{reset}}
+\index{reset@{reset}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{reset}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ void {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::reset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_adfdd8674398c8352a1d1542898befbce}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_aa091af0e43ae1195968cec3d029dd6ae}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!shuffle@{shuffle}}
+\index{shuffle@{shuffle}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{shuffle}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ void {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::shuffle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_aa091af0e43ae1195968cec3d029dd6ae}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structWonderRabbitProject_1_1bingo_1_1lottery__machine_aa091af0e43ae1195968cec3d029dd6ae_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a9614d7348f9dfd37777d860e577f20c1}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!indeces\-\_\-called\-\_\-@{indeces\-\_\-called\-\_\-}}
+\index{indeces\-\_\-called\-\_\-@{indeces\-\_\-called\-\_\-}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{indeces\-\_\-called\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ indeces\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::indeces\-\_\-called\-\_\-\hspace{0.3cm}{\ttfamily [private]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a9614d7348f9dfd37777d860e577f20c1}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a20060cafdcdd3bc7685d78258a12f2a7}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!indeces\-\_\-uncalled\-\_\-@{indeces\-\_\-uncalled\-\_\-}}
+\index{indeces\-\_\-uncalled\-\_\-@{indeces\-\_\-uncalled\-\_\-}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{indeces\-\_\-uncalled\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ indeces\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::indeces\-\_\-uncalled\-\_\-\hspace{0.3cm}{\ttfamily [private]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a20060cafdcdd3bc7685d78258a12f2a7}
+\hypertarget{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a44860cbc8b1fe744522ffdfb9aa8c557}{\index{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}!maximum\-\_\-index\-\_\-@{maximum\-\_\-index\-\_\-}}
+\index{maximum\-\_\-index\-\_\-@{maximum\-\_\-index\-\_\-}!WonderRabbitProject::bingo::lottery_machine@{Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}}
+\subsubsection[{maximum\-\_\-index\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E  = default\-\_\-index\-\_\-type$>$ const index\-\_\-type {\bf Wonder\-Rabbit\-Project\-::bingo\-::lottery\-\_\-machine}$<$ I\-N\-D\-E\-X\-\_\-\-T\-Y\-P\-E $>$\-::maximum\-\_\-index\-\_\-\hspace{0.3cm}{\ttfamily [private]}}}\label{structWonderRabbitProject_1_1bingo_1_1lottery__machine_a44860cbc8b1fe744522ffdfb9aa8c557}
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{lottery__machine_8hxx}{lottery\-\_\-machine.\-hxx}\end{DoxyCompactItemize}
