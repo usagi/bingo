@@ -20,7 +20,7 @@ To see a sample source code.
 
 ## Specification and Documentation
 
-n/a; sorry :P
+To see doxygen/html/ using some web-browser, but source code is the most useful specification and documentation if you want detail :P
 
 ## License
 
