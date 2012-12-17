@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION   2.8)
+cmake_minimum_required(VERSION 2.8)
 project(bingo)
 set(CMAKE_CXX_FLAGS " -std=c++11 ${CMAKE_CXX_FLAGS}")
 include_directories("./include")
@@ -10,5 +10,7 @@ if(Boost_FOUND)
   include_directories(${Boost_INCLUDE_DIRS})
   add_executable(bingo_simulator bingo_simulator.cxx)
   target_link_libraries(bingo_simulator ${Boost_LIBRARIES})
+  add_executable(bingo_battler bingo_battler.cxx)
+  target_link_libraries(bingo_battler ${Boost_LIBRARIES} glog)
 endif()
 

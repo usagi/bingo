@@ -22,10 +22,24 @@ To see a sample source code.
 
 To see doxygen/html/ using some web-browser, but source code is the most useful specification and documentation if you want detail :P
 
+## Dependency
+
+### of Library
+
+* [boost](http://www.boost.org/)
+
+### of Samples
+
+* bingo_simulator
+    * (n/a)
+* bingo_battler
+    * [google-glog](http://code.google.com/p/google-glog/)
+    * [POCO](http://pocoproject.org/)
+
 ## License
 
 * [MIT License](http://opensource.org/licenses/MIT)
 
 ## Copyright
 
-©2012 Usagi Ito / Wonder Rabbit Project.
+©2012 [Usagi Ito](mailto:usagi@WonderRabbitProject.net) / [Wonder Rabbit Project](http://www.WonderRabbitProject.net/).
