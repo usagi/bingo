@@ -15,8 +15,8 @@ namespace WonderRabbitProject {
         lottery_machine() = delete;
         lottery_machine ( const index_type maximum_index )
           : maximum_index_ ( maximum_index )
-          , indeces_uncalled_ ( maximum_index + 1 ) {
-          boost::iota ( indeces_uncalled_, 0 );
+          , indeces_uncalled_ ( maximum_index ) {
+          boost::iota ( indeces_uncalled_, 1 );
         }
 
         void reset() {

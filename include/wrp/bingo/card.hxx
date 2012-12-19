@@ -19,12 +19,12 @@ namespace WonderRabbitProject {
         using indeces_type = boost::multi_array<index_type, dimension>;
         using status_type = boost::multi_array<state_type, dimension>;
         static constexpr index_type value_max = std::numeric_limits<index_type>::max();
-        static constexpr index_type value_bingo_free = value_max;
+        static constexpr index_type value_bingo_free = 0;
 
         card () = delete;
         card (
           size_t scaling = 3,
-          index_type maximum_index = value_max - 1
+          index_type maximum_index = value_max
         )
           : indeces ( boost::extents[scaling][scaling] )
           , status ( boost::extents[scaling][scaling] )
@@ -36,11 +36,8 @@ namespace WonderRabbitProject {
           if ( maximum_index < indeces.num_elements() - 1 )
             throw std::invalid_argument ( "maximum_index must be more than {pow(scaling, dimension) - 1}" );
 
-          if ( maximum_index == value_max )
-            throw std::invalid_argument ( "maximum_index must be less than {numeric_limits<indeces_type>::max()}" );
-
-          std::vector<index_type> buffer ( maximum_index + 1 );
-          boost::iota ( buffer, 0 );
+          std::vector<index_type> buffer ( maximum_index );
+          boost::iota ( buffer, 1 );
 
           std::random_device rd;
           std::mt19937_64 rng ( rd() );
